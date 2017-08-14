@@ -1,0 +1,226 @@
+* {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 13px;
+}
+
+li {
+	display: inline;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* This section is for the top navigation bar. */
+
+.top {
+	position: absolute;
+	top: -4px;
+	right: 30px;
+
+	padding: 0px 0px;
+
+	font-size: 13px;
+}
+
+#gmail {
+	font-size: 13px;
+	opacity: .75;
+	color: #000;
+	margin-right: 11px;
+}
+
+#images { 
+	font-size: 13px;
+	opacity: .75;
+	color: #000;
+	margin-right: 1px;
+}
+
+#apps {
+	width: 16px;
+	height: 16px;
+
+	position: relative;
+	top: .3em;
+
+	margin-top: 23px;
+	margin-right: 18px;
+}
+
+.top input {
+	font-size: 13px;
+	font-weight: bold;
+
+	background-color: #4285F4;
+	color: #fff;
+
+	height: 30px;
+	border: 1px solid #4285f4;
+	border-radius: 3px;
+	padding: 0 12px; 
+	line-height: 28px;
+}
+
+.top a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* This section is for the main elements on the page: The Google logo, the search bar, and the buttons. */
+
+.google {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 180px;
+	text-align: center;
+}
+
+.search {
+	position: absolute;
+	width: 572px;
+	left: 50%;
+	margin-left: -286px;
+	top: 294px;
+}
+
+.search input {
+	text-align: left;
+
+	display: block;
+
+	margin: 23px auto;
+	border: 1px solid hsl(0, 0%, 90%);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	color: #222;
+
+	width: 562px;
+	height: 43px;	
+
+	font-size: 100%;
+
+	padding-left: 20px;
+
+	border-radius: 2px;
+
+}
+
+.search input:hover {
+	box-shadow: 0px 3px 8px rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.mic {
+	position: relative;
+	float: right;
+	padding: 0 8px;
+	bottom: 58px;
+	right: -4px;
+}
+
+.mic img {
+	width: 24px;
+	height: 24px;
+}
+
+.buttons {
+	text-align: center;
+	position: absolute;
+	top: 394px;
+	left: 50%;
+	margin-left: -138px;
+}
+
+.buttons input {
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-right: 4px;
+
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	
+	height: 35px;
+	line-height: 27px;
+
+	font-weight: bold;
+
+	color: #727272;
+	background-color: #f2f2f2;
+}
+
+.buttons input:hover {
+	color: #222;
+	border: 1px solid #c6c6c6;
+	background-color: #f8f8f8;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* This section is for the ad directly underneath the search bar. */
+
+.ad {
+	position: relative;
+	top: 140px;
+	bottom: 10px;
+
+	text-align: center;
+}
+
+.ad p a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* This section is for the page footer. */
+
+.footer {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+
+	line-height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+
+	height: 40px;
+	width: 100%;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.foot-l {
+	left: 4px;
+	bottom: 0px;
+	position: fixed;
+}
+
+.foot-l a {
+	font-size: 13px;
+	color: #666;
+	padding-left: 26px;
+}
+
+.foot-r {
+	right: 4px;
+	bottom: 0px;
+	position: fixed;
+}
+
+.foot-r a {
+	font-size: 13px;
+	color: #666;
+	padding-right: 26px;
+
+}
