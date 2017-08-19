@@ -1,0 +1,38 @@
+body {
+  margin-top: 60px;}
+.text-center
+{
+  font-family: 'Anton', serif;
+  font-size: 48px;
+}
+.para-center
+{
+  font-family:'Arial';
+}
+.mahatma{
+  margin-top:0px;
+}
+.gandhi{
+  margin: auto;
+  display: block;
+  width:100%;
+}
+.here{
+  text-align:center;
+  margin:2cm;
+  font-size:30px;
+}
+.text{
+  font-size:20px;
+}
+.credits{
+  text-align:center;
+  text-size:25px;
+}
+.foot{
+  text-align:center;
+  font-size:15px;
+  display:block;
+clear: both;
+    position: relative;
+}
